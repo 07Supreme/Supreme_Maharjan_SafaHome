@@ -1,0 +1,133 @@
+.job-tracking {
+  width: 100%;
+}
+
+.job-header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(198, 216, 112, 0.3);
+}
+
+.job-header h2 {
+  color: #556b2f;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.job-subtitle {
+  color: #6b8e23;
+  font-size: 15px;
+  margin: 0;
+}
+
+.coming-soon-container {
+  background: linear-gradient(135deg, rgba(239, 245, 210, 0.3) 0%, rgba(242, 247, 203, 0.2) 100%);
+  border: 2px dashed rgba(198, 216, 112, 0.5);
+  border-radius: 20px;
+  padding: 60px 40px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.coming-soon-icon {
+  font-size: 80px;
+  margin-bottom: 24px;
+  opacity: 0.7;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.coming-soon-container h3 {
+  color: #556b2f;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.coming-soon-text {
+  color: #6b8e23;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+}
+
+.coming-soon-subtitle {
+  color: #556b2f;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0 16px 0;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 30px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.feature-list li {
+  color: #555;
+  font-size: 15px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(198, 216, 112, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+.status-badge-container {
+  margin-top: 30px;
+}
+
+.status-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #556b2f 0%, #6b8e23 100%);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(85, 107, 47, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-header h2 {
+    font-size: 24px;
+  }
+
+  .coming-soon-container {
+    padding: 40px 20px;
+  }
+
+  .coming-soon-icon {
+    font-size: 60px;
+  }
+
+  .coming-soon-container h3 {
+    font-size: 24px;
+  }
+
+  .coming-soon-text {
+    font-size: 16px;
+  }
+
+  .feature-list {
+    max-width: 100%;
+  }
+}
+
